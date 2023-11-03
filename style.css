@@ -54,7 +54,7 @@ main {
   justify-content: space-between;
   padding: 2.5rem 3rem;
   backface-visibility: hidden;
-  transition: 0.8s;
+  transition: 0.5s;
   transform-style: preserve-3d;
 }
 
