@@ -325,18 +325,21 @@ main {
 
 @keyframes float {
   0% {
-    transform: translateX(calc(-45% - 5%)) translateY(-55% - 5%) 
+    transform: translateX(calc(-45% - 5px)) 
+    translateY(-55% - 5px) 
     translateZ(200px);
   }
 
   100% {
-    transform: translateX(calc(-45% + 5%)) translateY(-55% + 5%) 
+    transform: translateX(calc(-45% + 5px)) 
+    translateY(-55% + 5px) 
     translateZ(400px);
   }
 }
 
 .shoe {
   transform: rotate(-30deg);
+  transition: 0.6s;
 }
 
 .content:hover .shoe-img {
