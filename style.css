@@ -326,13 +326,13 @@ main {
 @keyframes float {
   0% {
     transform: translateX(calc(-45% - 5px)) 
-    translateY(-55% - 5px) 
+    translateY(calc(-55% - 5px)) 
     translateZ(200px);
   }
 
   100% {
     transform: translateX(calc(-45% + 5px)) 
-    translateY(-55% + 5px) 
+    translateY(calc(-55% + 5px)) 
     translateZ(400px);
   }
 }
